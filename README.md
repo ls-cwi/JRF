@@ -37,7 +37,13 @@ Note: On Mac OS 10.9, comment out the following two lines and add the code below
       set( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libstdc++ " )
     endif()
 
-You can remove the LEMON sources now, i.e., `rm -rf lemon-1.3`. Next, JRF can be compiled:
+You can remove the LEMON sources now, i.e., `rm -rf lemon-1.3`. 
+
+CPLEX is a commercial product owned by IBM. For academic purposed it can be obtained at no charge via IBM's Academic Initiative programme:
+
+  http://www-03.ibm.com/ibm/university/academic/pub/page/membership
+
+Next, JRF can be compiled:
 
     mkdir build
     cd build
