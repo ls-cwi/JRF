@@ -68,23 +68,23 @@ To run JRF on two small toy trees:
 
 This will create output similar to
 
-   ../data/t1.txt|../data/t2.txt	1	16	0	0	3.99127	7	0	4.65794	4.65794	0	7	0
+    ../data/t1.txt|../data/t2.txt	1	16	0	0	3.99127	7	0	4.65794	4.65794	0	7	0
 
 The numbers have the following meaning (in order of occurence):
 
-   1:       value of k 
-   16:      Robinson-Foulds distance (RF)
-   0:       #internal nodes in t1 + #internal nodes in t2 -RF
-   0:       time to compute RF
-   3.99127: cost of minimum cost bipartite matching (MCBM)
-   7:       number of conflicts induced by MCBM
-   0:       time to compute MCBM
-   4.65794: lower bound on minimum cost arboreal bipartite matching (MCABM)
-   4.65794: upper bound on MCABM
-   0:       optimality gap
-   7:       number of clade pairs matched by MCABM 
-   0:       time to compute MCABM 
-
+    1:       value of k 
+    16:      Robinson-Foulds distance (RF)
+    0:       #internal nodes in t1 + #internal nodes in t2 -RF
+    0:       time to compute RF
+    3.99127: cost of minimum cost bipartite matching (MCBM)
+    7:       number of conflicts induced by MCBM
+    0:       time to compute MCBM
+    4.65794: lower bound on minimum cost arboreal bipartite matching (MCABM)
+    4.65794: upper bound on MCABM
+    0:       optimality gap
+    7:       number of clade pairs matched by MCABM 
+    0:       time to compute MCABM 
+ 
 Get a list of options:
 
     ./JRF -h
