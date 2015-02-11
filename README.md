@@ -71,6 +71,7 @@ This will create output similar to
    ../data/t1.txt|../data/t2.txt	1	16	0	0	3.99127	7	0	4.65794	4.65794	0	7	0
 
 The numbers have the following meaning (in order of occurence):
+
    1:       value of k 
    16:      Robinson-Foulds distance (RF)
    0:       #internal nodes in t1 + #internal nodes in t2 -RF
